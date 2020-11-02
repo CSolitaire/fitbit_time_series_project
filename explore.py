@@ -42,3 +42,20 @@ def visualize_splits(train, validate, test):
         plt.ylabel(col)
         plt.title(col)
         plt.show()
+
+
+########################################################################################### 
+def numeric_hists(df, bins=20):
+    """
+    Function to take in a DataFrame, bins default 20,
+    select only numeric dtypes, and
+    display histograms for each numeric column
+    """
+    plt.rc('figure', figsize=(11, 9))
+    plt.rc('font', size=13)
+    num_df = df.select_dtypes(include=np.number)
+    num_df.hist(bins=bins, color='blue', ec='black')
+    plt.suptitle('Numeric Column Distributions')
+    plt.tight_layout()
+    plt.show()
+

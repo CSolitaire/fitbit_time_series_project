@@ -16,3 +16,10 @@ def wrangle_fitbit_explore():
                 'Month': 'category', 
                 'weekday': 'category'}))
     return df
+
+##############################################################################
+def wrangle_fitbit_model():
+    df = pd.read_csv('time_series_project.csv')
+    df.date = pd.to_datetime(df.date)
+    df = df.set_index('date').sort_index()
+    return df
