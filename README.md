@@ -27,9 +27,9 @@ Data set was combined from 8 csv files in Excel.  97% of food log data missing, 
 General trends in the data demonstrate a slight upward trend in calories and activity over time, with the majority of higher activity levels occuring on the weekend.  The lack of regular exercise, the lenght of time sedintary, and the the missing food data suggest this fitness tracker belongs to an employee. While the model was able to improve on baseline observations I was not able to match a model to weekly seasdonality.  There exists the possibility that alternate modeling techiniques (TSA with Prophet) would return better results however that modeling technique was not included in this study.  
 
 **Reccomendations:**   
-- Not Enough Data: With only 7 months of data it was hard to pick up long term trends in seasonality.  More data would have yeilded better results.    
-- New Model: Spending time refining previous-cycle model and exploring prophet would improve model forcasting.    
-- Cross Validation: This model may work better on other CA counties, further investigation is necessary.   
+- **Not Enough Data:** With only 7 months of data it was hard to pick up long term trends in seasonality.  More data would have yeilded better results.    
+- **New Model:** Spending time refining previous-cycle model and exploring prophet would improve model forcasting.    
+- **Cross Validation:** This model may work better on other CA counties, further investigation is necessary.   
 
 ## Instructions for Replication:
 Files are located in Git Repo [here](https://github.com/CSolitaire/fitbit_time_series_project)
