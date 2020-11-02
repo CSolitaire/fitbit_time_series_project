@@ -1,0 +1,11 @@
+*.txt
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+*.csv
+env.py
+*.xlsx
+*.json
+.virtual_documents/
+Thumbs.db
+.vscode/
