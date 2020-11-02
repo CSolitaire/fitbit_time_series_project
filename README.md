@@ -29,7 +29,7 @@ General trends in the data demonstrate a slight upward trend in calories and act
 **Reccomendations:**   
 - **Not Enough Data:** With only 7 months of data it was hard to pick up long term trends in seasonality.  More data would have yeilded better results.    
 - **New Model:** Spending time refining previous-cycle model and exploring prophet would improve model forcasting.    
-- **Cross Validation:** This model may work better on other CA counties, further investigation is necessary.   
+- **Cross Validation:**  Time-based splitting can provide statistically robust model evaluation and best simulate real-life scenarios. Exploring the use of time-based cross validation to form a type of “sliding window” aveage would most likely lead to better model results.  
 
 ## Instructions for Replication:
 Files are located in Git Repo [here](https://github.com/CSolitaire/fitbit_time_series_project)
